@@ -5,6 +5,4 @@ stages:
       image: python:latest
       shellScript: time.sleep(10)
 timeout: 60
-branch:
-  exclude:
-  - debian
+branch: {}
