@@ -3,7 +3,6 @@ stages:
   steps:
   - runScriptConfig:
       image: python:latest
-      shellScript: "import time\n \nprint \"Start : %s\" % time.ctime()\ntime.sleep(
-        5 )\nprint \"End : %s\" % time.ctime()"
+      shellScript: "import time\n \ntime.sleep( 5 )"
 timeout: 60
 branch: {}
