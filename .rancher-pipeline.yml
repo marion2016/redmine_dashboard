@@ -2,7 +2,7 @@ stages:
 - name: run
   steps:
   - runScriptConfig:
-      image: python:latest
-      shellScript: "import time\n \ntime.sleep( 5 )"
+      image: centos:latest
+      shellScript: sleep 10
 timeout: 60
 branch: {}
